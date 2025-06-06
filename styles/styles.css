@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+p {
+  color: white;
+  font-size: 8vw;
+  font-family: "Rubik", sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+  opacity: 0.2;
+}
+.fancy > span {
+  display: inline-block;
+}
+
+.fancy:hover > .word-1:nth-child(1) {
+  transform: translate(-10%, 20%) rotate(5deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-1:nth-child(2) {
+  transform: translate(5%, -15%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-1:nth-child(3) {
+  transform: translate(-7%, 10%) rotate(-3deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-1:nth-child(4) {
+  transform: translate(12%, 5%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-1:nth-child(5) {
+  transform: translate(-5%, -10%) rotate(7deg);
+  transition-duration: 800ms;
+}
+
+.fancy:hover > .word-2:nth-child(1) {
+  transform: translate(0%, 25%) rotate(-4deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(2) {
+  transform: translate(-12%, 15%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(3) {
+  transform: translate(10%, -20%) rotate(6deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(4) {
+  transform: translate(-8%, 5%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(5) {
+  transform: translate(7%, -10%) rotate(-5deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(6) {
+  transform: translate(-10%, 12%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(7) {
+  transform: translate(5%, -8%) rotate(4deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(8) {
+  transform: translate(-3%, 18%);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(9) {
+  transform: translate(8%, -12%) rotate(-6deg);
+  transition-duration: 800ms;
+}
+.fancy:hover > .word-2:nth-child(10) {
+  transform: translate(-6%, 10%);
+  transition-duration: 800ms;
+}
